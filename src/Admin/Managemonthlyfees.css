@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Managemonthly {
+    display: flex;
+    margin: 15px 2px;
+    border: 0.01px solid rgb(209, 199, 199);
+    height: 45px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.Managemonthlylist {
+    text-align: left;
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+
+.Managemonthlyschedule {
+  margin: 10px 10px;
+  box-shadow: 1px 1px 10px lightslategrey;
+  height: 25px;
+  width: 210px;
+}
+
+.Managemonthlytype {
+    border: 1px solid rgb(136, 136, 136);
+    flex: 100%;
+    height: 350px;
+    margin: 10px;
+}
+
+.search88 {
+   margin: 5px;
+   display: flex;
+   
+}
+
+.sear88 {
+    width: 290px;
+    height: 30px;
+    margin: 10px;
+}
+
+.showsearch88 {
+    margin: 10px;
+} 
+
+.searone88 {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.status88 {  
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.TottleFee {
+    border: 1px solid rgb(161, 159, 159);
+    height: 50px;
+    flex: 100%;
+    padding: 5px;
+
+}
+
+.TottleFee1 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.TottleFee2 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.TottleFee3 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.TottleFee4 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.onestatus88 {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    flex: 100%;
+}
+
+
+.nodate88 {
+    padding: 12px;
+}
+
+
+.showing88 {
+    display: flex;
+    justify-content: space-between;
+    flex: 100%;
+    margin: 10px;
+    height: 40px;
+}
+
+.previous88 {
+    display: flex;
+    height: 30px;
+    margin: 5px;
+}
+
+.next88 {
+    border: 1px solid rgb(177, 174, 174);
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}
+

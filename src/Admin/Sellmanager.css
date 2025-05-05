@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Sellmanager {
+    display: flex;
+    margin: 15px 2px;
+    border: 0.01px solid rgb(209, 199, 199);
+    height: 45px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.Sellmanagerlist {
+    text-align: left;
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+
+.Sellmanagerschedule {
+  margin: 10px 10px;
+  box-shadow: 1px 1px 10px lightslategrey;
+  height: 25px;
+  width: 210px;
+}
+
+.Sellmanagertype {
+    border: 1px solid rgb(136, 136, 136);
+    flex: 100%;
+    height: 350px;
+    margin: 10px;
+}
+
+.searchs {
+   margin: 5px;
+   display: flex;
+   
+}
+
+.sears {
+    width: 290px;
+    height: 30px;
+    margin: 10px;
+}
+
+.showsearchs {
+    margin: 10px;
+} 
+
+.searones {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.statuss {  
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.Amount {
+    border: 1px solid rgb(161, 159, 159);
+    height: 50px;
+    flex: 100%;
+    padding: 5px;
+
+}
+
+.Amount1 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.Amount2 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.Amount3 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.Amount4 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.onestatuss {
+    border: 1px solid rgb(166, 166, 166);
+    height: 145px;
+    margin: 10px;
+    flex: 100%;
+}
+
+
+.nodates {
+    padding: 12px;
+}
+
+
+.showings {
+    display: flex;
+    justify-content: space-between;
+    flex: 100%;
+    margin: 20px 10px;
+    height: 40px;
+}
+
+.previouss {
+    display: flex;
+    height: 30px;
+    margin: 5px;
+}
+
+.nexts {
+    border: 1px solid rgb(177, 174, 174);
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.totle {
+    border: 1px solid rgb(170, 168, 168);
+    display: flex;
+    height: 50px;
+}
+
+.totle1 {
+    border: 1px solid rgb(214, 213, 213);
+    width: 350px;
+    text-align: right;
+    display: block;
+    padding: 10px;   
+}
+
+.totle2 {
+    margin: 10px;
+}

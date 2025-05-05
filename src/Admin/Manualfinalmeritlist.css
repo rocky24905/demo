@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 1180px;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+
+.four {
+    flex: 100%;
+    margin: 5px;
+    height: 200px;
+    text-align: left;
+    box-shadow: 1px 1px 10px lightslategrey;
+}
+
+
+.dulo {
+    display: flex;
+    margin: 10px;
+    height:30px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.Manual {
+    flex: 100%;
+    margin: 20px;
+    height: 150px;
+    
+}
+
+
+.Manualbox {
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid rgb(174, 171, 171);
+    background-color: rgb(233, 235, 237);
+}
+
+.Manuall {
+    color: rgb(136, 133, 133);
+    margin: 5px;
+}
+
+.final {
+    display: flex;
+    
+    flex: 100%;
+    margin: 30px 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(162, 162, 162);
+    box-shadow: 1px 1px 5px lightslategrey;
+}
+
+.final a{
+    flex: 100%;
+   text-decoration: none;
+   color: black;
+}

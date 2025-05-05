@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.notice {
+    display: flex;
+    margin: 15px 2px;
+    border: 0.01px solid rgb(209, 199, 199);
+    height: 45px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.noticelist {
+    text-align: left;
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+
+.noticeschedule {
+  margin: 10px 10px;
+  box-shadow: 1px 1px 10px lightslategrey;
+  height: 25px;
+  width: 210px;
+}
+
+.noticetype {
+    border: 1px solid rgb(136, 136, 136);
+    flex: 100%;
+    height: 350px;
+    margin: 10px;
+}
+
+.search1 {
+   margin: 5px;
+   display: flex;
+   
+}
+
+.sear1 {
+    width: 290px;
+    height: 30px;
+    margin: 10px;
+}
+
+.showsearch1 {
+    margin: 10px;
+} 
+
+.searone1 {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.status1 {  
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.NoticeFor {
+    border: 1px solid rgb(161, 159, 159);
+    height: 50px;
+    flex: 100%;
+    padding: 5px;
+}
+
+.NoticeFor1 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+}
+
+.NoticeFor2 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+}
+
+.NoticeFor3 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+}
+
+.NoticeFor4 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+}
+
+.onestatus1 {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    flex: 100%;
+}
+
+
+.nodate1 {
+    padding: 12px;
+}
+
+
+.showing1 {
+    display: flex;
+    justify-content: space-between;
+    flex: 100%;
+    margin: 10px;
+    height: 40px;
+}
+
+.previous1 {
+    display: flex;
+    height: 30px;
+    margin: 5px;
+}
+
+.next1 {
+    border: 1px solid rgb(177, 174, 174);
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}

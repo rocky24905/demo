@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.dules {
+    display: flex;
+    margin: 10px;
+    border: 0.01px solid rgb(209, 199, 199);
+    height:50px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.lists {
+    text-align: left;
+    
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+   
+
+.schedules {
+    margin: 10px 10px;
+    box-shadow: 1px 1px 10px lightslategrey;
+    height: 25px;
+    width: 180px;
+  }
+
+  .schedules a{
+    text-decoration: none;
+    color: black;
+}
+
+.uplords {
+   display: flex;
+   height: 30px;
+   width: 300px;
+   margin: 10px; 
+   padding: 4px;
+   box-shadow: 1px 1px 10px lightslategrey;
+}
+
+.uplords a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.parsing{
+    display: block;
+    flex: 100%;
+    margin: 10px;
+    height: 220px;
+    padding: 10px;
+    justify-content: space-around;
+    box-shadow: 1px 1px 10px rgb(216, 209, 209);
+}
+
+
+.fromm {
+    display: block;
+    justify-content: space-between;
+    flex: 100%;
+    margin: 10px;
+    height: 170px;
+    box-shadow: 1px 1px 10px lightslategrey;
+}
+
+.roll {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(244, 235, 235);
+    border: 1px solid rgb(149, 142, 142);
+}
+
+.section {
+    color: rgb(147, 140, 140);
+}
+
+.haveone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    flex: 100%;
+    height: 40px;
+}
+
+.datee{
+    width: 200px;
+    margin: 30px;
+    height: 30px;
+    border: 1px solid rgb(185, 174, 174);
+    background-color: rgb(236, 232, 232);
+}
+
+.showw{
+  padding: 8px;
+  margin: 20px;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(237, 231, 231);
+  box-shadow: 1px 1px 10px rgb(201, 195, 195);
+}
+
+.showw a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 1180px;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.Examattendance {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.Examattendanceone {
+    margin: 5px;
+}
+
+.Examattendancetwo {
+    margin: 5px;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(205, 206, 206);
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px lightslategrey;
+}
+
+.varsmenu {
+    flex: 100%;
+    margin: 20px;
+    height: 150px;
+    border: 1px solid rgb(201, 198, 198);
+}
+
+
+.vars {
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid rgb(174, 171, 171);
+    background-color: rgb(233, 235, 237);
+}
+
+.varsone {
+    color: rgb(136, 133, 133);
+    margin: 5px;
+}
+
+.editlist {
+    display: flex;
+    flex: 100%;
+    margin: 10px;
+    height: 50px;
+}
+
+.editlistone {
+    width: 180px;
+    height: 35px;
+    border: 1px solid rgb(168, 163, 163);
+    margin: 5px;
+    background-color: rgb(213, 214, 215);
+}
+
+.editlisttwo {
+    box-shadow: 1px 1px 10px lightslategrey;
+    width: 230px;
+    height: 35px;
+    margin: 5px;
+    background-color: rgb(183, 184, 185);
+}
+
+.editlisttwo a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.showfor {
+    margin: 10px;
+    color: rgb(170, 172, 173);
+}

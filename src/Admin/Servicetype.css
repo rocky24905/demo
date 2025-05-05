@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Service {
+    display: flex;
+    margin: 15px 2px;
+    border: 0.01px solid rgb(209, 199, 199);
+    height: 45px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.Servicelist {
+    text-align: left;
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+
+.Serviceschedule {
+  margin: 10px 10px;
+  box-shadow: 1px 1px 10px lightslategrey;
+  height: 25px;
+  width: 210px;
+}
+
+.Servicetype {
+    border: 1px solid rgb(136, 136, 136);
+    flex: 100%;
+    height: 350px;
+    margin: 10px;
+}
+
+.searchinge {
+   margin: 5px;
+   display: flex;
+   
+}
+
+.searinge {
+    width: 290px;
+    height: 30px;
+    margin: 10px;
+}
+
+.showsearchinge {
+    margin: 10px;
+} 
+
+.searoneinge {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.statusinge {  
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.Services {
+    border: 1px solid rgb(161, 159, 159);
+    height: 50px;
+    flex: 100%;
+    padding: 5px;
+
+}
+
+.Services1 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.Services2 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.onestatusinge {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    flex: 100%;
+}
+
+
+.nodateinge {
+    padding: 12px;
+}
+
+
+.showinginge {
+    display: flex;
+    justify-content: space-between;
+    flex: 100%;
+    margin: 10px;
+    height: 40px;
+}
+
+.previousinge {
+    display: flex;
+    height: 30px;
+    margin: 5px;
+}
+
+.nextinge {
+    border: 1px solid rgb(177, 174, 174);
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 1180px;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+
+.dulo {
+    display: flex;
+    margin: 10px;
+    height:30px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.acade {
+    width: 260px;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid rgb(174, 171, 171);
+    background-color: rgb(233, 235, 237);
+}
+
+
+.cooll {
+    color: rgb(136, 133, 133);
+    margin: 5px;
+}
+
+.merit {
+    display: flex;
+    box-shadow: 1px 1px 5px lightslategrey;
+    flex: 100%;
+    margin: 50px 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 220, 220);
+}
+
+.merit a{
+    flex: 100%;
+    text-decoration: none;
+    color: black;
+}

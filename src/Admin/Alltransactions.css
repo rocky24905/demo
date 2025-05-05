@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Alltransactions {
+    display: flex;
+    margin: 15px 2px;
+    height: 45px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.Alltransactionslist {
+    text-align: left;
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+
+.Alltransactionsschedule {
+  margin: 10px 10px;
+  box-shadow: 1px 1px 10px lightslategrey;
+  height: 25px;
+  width: 210px;
+}
+
+.searchall {
+   margin: 5px;
+   display: flex;
+   
+}
+
+.searall {
+    width: 290px;
+    height: 30px;
+    margin: 10px;
+}
+
+.showsearchall {
+    margin: 10px;
+} 
+
+.searoneall {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.statusall {  
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.transactions {
+    border: 1px solid rgb(161, 159, 159);
+    height: 50px;
+   
+    padding: 5px;
+    width: 300px;
+}
+
+.transactions1 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+}
+
+.transactions2 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+}
+
+.transactions3 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+}
+
+
+
+
+.onestatusall {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    flex: 100%;
+}
+
+
+.nodateall {
+    padding: 12px;
+}
+
+
+.showingall {
+    display: flex;
+    justify-content: space-between;
+    flex: 100%;
+    margin: 40px 10px;
+}
+
+.previousall {
+    display: flex;
+    height: 0px;
+    margin: 5px;
+    
+}
+
+.nextall {
+    border: 1px solid rgb(177, 174, 174);
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    flex: 100%;
+    margin: 10px;
+}
+
+.Transac {
+    width: 250px;
+    height: 35px;
+    margin: 5px 20px;
+}
+
+.viewreport {
+    border: 1px solid rgb(161, 160, 160);
+    width: 150px;
+    height: 35px;
+    background-color: rgb(226, 229, 232);
+}
+
+.viewreport a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+.modelview {
+    flex: 100%;
+    margin: 5px 10px;
+    height: 450px;
+    box-shadow: 1px 1px 10px lightslategray;
+}
+
+
+.modellist {
+    flex: 100%;
+    margin: 5px 10px;
+    height: 540px;
+    background-color: rgb(237, 241, 244);
+    box-shadow: 1px 1px 15px lightslategrey;
+}
+
+.expense {
+    flex: 100%;
+    margin: 15px;
+    display: flex;
+    height: 50px;
+}
+
+.earn {
+    display: flex;
+    padding: 10px;
+    width: 375px;
+    height: 50px;
+    box-shadow: 0.1px 0.1px 1px lightslategrey;
+    background-color: rgb(231, 233, 235);
+}
+
+.earn1 {
+    box-shadow: 0.1px 0.1px 1px lightslategrey;
+    background-color: rgb(231, 233, 235);    width: 375px;
+    display: flex;
+    padding: 10px;
+    height: 50px;
+}
+
+.earn2 {
+    box-shadow: 0.1px 0.1px 1px lightslategrey;
+    background-color: rgb(231, 233, 235);    width: 374px;
+    display: flex;
+    padding: 10px;
+    height: 50px;
+}
+
+.manual {
+    display: flex;
+    flex: 100%;
+    margin: 15px;
+    height: 40px;
+    
+}
+
+.manual1 {
+    display: flex;
+    padding: 10px 30px;
+    height: 40px;
+    width: 375px;
+}
+
+.manual2 {
+    display: flex;
+    padding: 10px 30px;
+    height: 40px;
+    width: 375px;
+}

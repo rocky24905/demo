@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Mark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 1180px;
+}
+
+.Markone {
+    display: flex;
+    margin: 5px;
+
+}
+
+.Markthree {
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.Marktwo {
+    margin: 0px 20px;
+}
+
+
+.markfive {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.marksiven {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    box-shadow: 1px 1px 5px lightslategrey;
+}
+
+.marksiven a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+
+
+.rockyone {
+    display: flex;
+    flex: 100%;
+    margin: 10px;
+    height: 70px;
+    box-shadow: 1px 1px 5px lightslategrey;
+}
+
+.managementone {
+    width: 190px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid rgb(177, 174, 174);
+    background-color: rgb(223, 225, 227);
+}
+
+.management {
+    margin: 5px;
+    color: rgb(168, 170, 171);
+}
+
+.rocky {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: 5px;
+    height: 30px;
+    box-shadow: 1px 1px 5px lightslategrey;
+}
+
+.rocky a{
+    text-decoration: none;
+    color: black;
+    
+}

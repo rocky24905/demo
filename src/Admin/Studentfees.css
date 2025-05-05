@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Studentfees {
+    display: flex;
+    margin: 15px 2px;
+    border: 0.01px solid rgb(209, 199, 199);
+    height: 45px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.Studentfeeslist {
+    text-align: left;
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+
+.Studentfeesschedule {
+  margin: 10px 10px;
+  box-shadow: 1px 1px 10px lightslategrey;
+  height: 25px;
+  width: 210px;
+}
+
+.Studentfeestype {
+    border: 1px solid rgb(136, 136, 136);
+    flex: 100%;
+    height: 350px;
+    margin: 10px;
+}
+
+.searchfees {
+   margin: 5px;
+   display: flex;
+   
+}
+
+.searfees {
+    width: 290px;
+    height: 30px;
+    margin: 10px;
+}
+
+.showsearchfees {
+    margin: 10px;
+} 
+
+.searonefees {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.statusfees {  
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.Studentfee {
+    border: 1px solid rgb(161, 159, 159);
+    height: 50px;
+    flex: 100%;
+    padding: 5px;
+
+}
+
+.Studentfee1 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.Studentfee2 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.Studentfee3 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.Studentfee4 {
+    border: 1px solid rgb(161, 159, 159);
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+}
+
+.onestatusfees {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    flex: 100%;
+}
+
+
+.nodatefees {
+    padding: 12px;
+}
+
+
+.showingfees {
+    display: flex;
+    justify-content: space-between;
+    flex: 100%;
+    margin: 10px;
+    height: 40px;
+}
+
+.previousfees {
+    display: flex;
+    height: 30px;
+    margin: 5px;
+}
+
+.nextfees {
+    border: 1px solid rgb(177, 174, 174);
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}

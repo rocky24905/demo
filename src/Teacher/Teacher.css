@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.lon {
+    background-color: chocolate;
+     text-align: center;
+     justify-content: center;
+ }
+
+ .Teacher {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.Teacher a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    place-items: center;
+    justify-content: center;
+    height: 60px ;
+    width: 220px;
+}
+
+.Teac { 
+    margin: 10px 0px;
+    display: block;
+    width: 230px;
+    height: 65px;
+    box-shadow: 1px 1px 10px lightslategray;
+    border-radius: 0px 170px 170px 9px;
+}
+
+.Teacher a:hover {
+          color: aqua;
+          transform: skew(-25deg, -0deg);
+}
+
+.lift {
+    display: flex;
+    float: left;
+    text-align: center;
+    justify-content: center;
+}

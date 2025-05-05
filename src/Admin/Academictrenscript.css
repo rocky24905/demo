@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 1180px;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+
+.dulo {
+    display: flex;
+    margin: 10px;
+    height:30px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.academic {
+    flex: 100%;
+    margin: 20px;
+    height: 200px;
+    border: 1px solid rgb(171, 169, 169);
+}
+
+
+.boxs {
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid rgb(174, 171, 171);
+    background-color: rgb(233, 235, 237);
+}
+
+
+.cools {
+    color: rgb(136, 133, 133);
+    margin: 5px;
+}
+
+
+.script {
+    display: block;
+    height: 60px;
+    flex: 100%;
+    margin: 20px 0px;
+}
+
+.boxss {
+    width: 250px;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid rgb(174, 171, 171);
+    background-color: rgb(233, 235, 237);
+}
+
+.trenscript {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 100%;
+    box-shadow: 1px 1px 5px lightslategrey;
+    margin: 10px 150px;
+    height: 40px;
+    background-color: rgb(175, 176, 178);
+}
+
+.trenscript a{
+    display: block;
+    flex: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}

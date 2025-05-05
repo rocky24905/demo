@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.student {
+    flex: 100%;
+    margin: 10px;
+    height: 900px;
+    box-shadow: 1px 1px  15px lightslategrey;
+}
+
+
+.dulestudent {
+    display: flex;
+    margin: 10px;
+    height: 40px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.dulestudentone {
+    text-align: left;
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+
+.dulestudenttwo {
+    margin: 10px 10px;
+    height: 25px;
+    width: 180px;
+  }
+
+  .studenting {
+    flex: 100%;
+    box-shadow: 1px 1px 10px lightslategray;
+    margin: 5px;
+    height: 130px;
+  }
+
+
+  .filter {
+    display: flex;
+    text-align: center;
+    justify-content:  center;
+    margin: 10px;
+    height: 50px;
+  }
+
+  .filterone {
+    margin: 10px;
+    width: 90px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right top, #f8f0f8, #e0caed, #bca9e7, #888ce4, #1975e1);
+  }
+
+  .filtertwo {
+    margin: 10px;
+    width: 140px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right top, #cec3cf, #c0a4c4, #b086b8, #a068ad, #8e49a2);
+  }
+
+
+ 

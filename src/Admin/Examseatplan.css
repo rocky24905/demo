@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+
+.dulo {
+    display: flex;
+    margin: 10px;
+    height:50px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+.listt {
+    text-align: left;
+    
+    box-shadow: 1px 1px 10px lightslategrey;
+    flex: 100%;
+    height:200px;
+    width: 60px;
+    margin: 5px;
+}
+   
+.utf {
+    display: flex;
+    box-shadow: 1px 1px 10px lightslategrey;
+    flex: 100%;
+    margin: 25px;
+    height: 100px;
+}
+
+.utf1{
+    flex: 100%;
+    margin: 5px;
+    height: 50px;
+}
+
+.alon {
+    width: 240px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid rgb(203, 192, 192);
+    background-color: rgb(247, 243, 243);
+}
+
+.alon2 {
+    color: rgb(166, 171, 175);
+    margin: 10px;
+}
+
+
+.exame{
+    display: flex;
+    flex: 100%;
+    margin: 10px;
+    height: 90px;
+}
+
+.plan {
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+    background-color: rgb(247, 241, 241);
+    border: 1px solid rgb(182, 176, 176);
+}
+
+.tion {
+    margin: 7px;
+    color: rgb(193, 187, 187);
+}
+
+.exa {
+    box-shadow: 1px 1px 10px lightslategrey;
+    height: 30px;
+    width: 300px;
+    margin: 5px;
+    background-color: rgb(222, 218, 218);
+}
+
+.exa a {
+     text-decoration: none;
+     color: black;
+}

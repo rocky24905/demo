@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Admin {
+    width: 100%;
+    display: flex;
+    background-image: radial-gradient(circle, #6b1ca5, #6133af, #5744b8, #4e52bf, #455ec4, #3271d2, #1b83dc, #0094e5, #00b0f2, #00cbf7, #00e4f6, #5ffbf1);
+    height: 70px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.profile {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.menu {
+    display: flex;
+    padding: 70px 0px;   
+}
+
+.lift {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    width: 250px;
+}
+
+
+.menuone {
+    display: flex;
+    list-style: none;
+    padding: 10px;  
+}
+
+.menuone a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px ;
+}
+
+.menutwo {
+    display: flex;
+    padding: 5px;
+    text-shadow: 1px 1px 10px lightblue;
+}
+
+
+.right {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.adminscroll {
+    scrollbar-width: auto;
+    height: 640px;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(234, 83, 23) rgb(66, 227, 255);
+}
+
+.contant {
+    position: fixed;
+    display: block;
+}

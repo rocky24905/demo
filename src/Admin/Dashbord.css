@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.righte{
+    display: flex;
+    margin: 5px;
+
+}
+
+.role{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.modell{
+    display: flex;
+    padding: 70px;
+    flex-wrap: wrap;
+}
+
+.mod {
+    display: flex;
+    height: 150px;
+    width: 251px;
+    margin: 5px;
+    background-image: linear-gradient(to right top, #47dcda, #00d1fc, #41bfff, #9fa4ff, #e182e1);
+}
+
+.mod1 {
+    display: flex;
+    height: 150px;
+    width: 251px;
+    margin: 5px;
+    background-image: linear-gradient(to right top, #7bec93, #b8ce5d, #dcac4d, #eb895e, #e26f7c);
+}
+
+.mod2 {
+    display: flex;
+    height: 150px;
+    width: 252px;
+    margin: 5px;
+    background-image: linear-gradient(to right top, #c56cd1, #4b9eff, #00c5ff, #00dfe2, #33ed92);
+}
+
+.mod3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+    width: 256px;
+    margin: 5px;
+    background-image: linear-gradient(to right top, #5d7dad, #00a1d2, #00c3c6, #00de86, #a8eb12);
+}
+
+
+.expenses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reven {
+    display: flex;
+    margin: 23px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px lightslategray;
+}
+
+
+.last {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lastone {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    width: 555px;
+    height: 260px;
+    box-shadow: 1px 1px 10px lightslategrey;
+}
+
+
+.scroll {
+    display: block;
+    width: 1210px;
+    height: 640px;
+    overflow: scroll;
+   
+}
+
+.node {
+    flex: 100%;
+    height: 40px;
+    background-color: #00c5ff;
+    color: white;
+    text-align: left;
+}
+
+.nodeone {
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+ .Stu {
+     text-align: center;
+     justify-content: center;
+     background-color: rgb(121, 202, 224);
+ }
+
+ .Student {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.Student a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+.model { 
+    margin: 10px 0px;
+    display: block;
+    width: 250px;
+    height: 70px;
+    box-shadow: 1px 1px 10px lightsteelblue;
+    border-radius: 0px 170px 170px 9px;
+}
+
+.Student a:hover {
+          color: aqua;
+          transform: skew(-25deg, -0deg);
+}
+
+.lift {
+    display: flex;
+    float: left;
+    text-align: center;
+    justify-content: center;
+}

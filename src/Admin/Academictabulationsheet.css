@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 1180px;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.four {
+    flex: 100%;
+    margin: 5px;
+    height: 300px;
+    text-align: left;
+    box-shadow: 1px 1px 10px lightslategrey;
+}
+
+
+.dulo {
+    display: flex;
+    margin: 10px;
+    height:30px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+.tabulationsheet {
+    flex: 100%;
+    margin: 20px;
+    height: 200px;
+    
+}
+
+
+.tabulationbox {
+    width: 160px;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid rgb(174, 171, 171);
+    background-color: rgb(233, 235, 237);
+}
+
+.tabulation {
+    color: rgb(136, 133, 133);
+    margin: 5px;
+}
+
+.menufive {
+    display: flex;
+    flex: 100%;
+    margin: 30px 0px;
+    height: 50px;
+}
+
+.content {
+    width: 180px;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid rgb(175, 172, 172);
+    background-color: rgb(228, 231, 233);
+}
+
+.menutext {
+    color: rgb(157, 153, 153);
+    margin: 8px;
+}
+
+.showone {
+    border: 1px solid rgb(200, 193, 193);
+    width: 200px;
+    margin: 5px;
+    height: 35px;
+    background-color: rgb(197, 198, 199);
+}
+
+.showone a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}

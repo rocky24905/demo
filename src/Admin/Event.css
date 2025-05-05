@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    display: flex;
+}
+
+.left {
+    display: block;
+   padding: 10px;
+}
+
+.left a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.righte {
+    display: flex;
+    flex-wrap: wrap;
+    left: 10px;
+    gap: 20px;
+    padding: 10px 230px;
+    
+}
+
+
+.role {
+    width: 170px;
+    right: 170px;
+    height: 35px;
+    background-color: rgb(239, 231, 231);
+}

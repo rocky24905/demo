@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.report {
+    flex: 100%;
+    margin: 10px 20px;
+    height: 180px;
+}
+
+.reportone {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.repot {
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(149, 147, 147);
+    background-color: rgb(232, 235, 232);
+}
+
+.repotone {
+    color: rgb(185, 185, 185);
+    margin: 5px;
+}
+
+.dateone {
+    flex: 100%;
+    margin: 40px 5px;
+    height: 70px;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.datetwo {
+    margin: 15px;
+    padding: 10px;
+    color: rgb(154, 155, 155);
+}
+
+.date {
+    width: 250px;
+    height: 35px;
+}
+
+.page {
+    width: 120px;
+    height: 35px;
+}
+
+.showfo {
+    flex: 100%;
+    margin: 10px 90px;
+    height: 40px;
+    box-shadow: 1px 1px 15px lightslategray;
+    background-color: aliceblue;
+
+}
+
+.showfo a {
+    display: flex;
+    flex: 100%;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+}

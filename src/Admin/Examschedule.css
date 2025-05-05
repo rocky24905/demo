@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.dule {
+    display: flex;
+    box-shadow: 1px 1px 10px lightslategrey;
+    margin: 10px;
+    height: 300px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+
+.list {
+    text-align: left;
+    
+    height:30px;
+    width: 60px;
+    margin: 10px;
+}
+
+.schedule {
+    
+  margin: 10px 10px;
+  box-shadow: 1px 1px 10px lightslategrey;
+  height: 30px;
+  width: 270px;
+}
+
+.getone {
+    margin: 10px;
+}
+
+.get {
+    display: flex;
+      
+      margin: 10px;
+    padding: 30px;
+}
+
+.choose {
+    margin: 5px;
+    display: block;
+}
+
+.box {
+    border: 1px solid black;
+    width: 160px;
+    height: 25px;
+    margin: 5px;
+}

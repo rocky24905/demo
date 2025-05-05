@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 1180px;
+}
+
+.rightee{
+    display: flex;
+    margin: 5px;
+
+}
+
+.rolee{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(147, 146, 146);
+    background-color: rgb(235, 232, 228);
+}
+
+
+.brance{
+    margin: 0px 20px;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.four {
+    flex: 100%;
+    margin: 5px;
+    height: 300px;
+    text-align: left;
+    box-shadow: 1px 1px 10px lightslategrey;
+}
+
+
+.dulo {
+    display: flex;
+    margin: 10px;
+    height:30px;
+    width: 1170px;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+
+
+.admit {
+    flex: 100%;
+    margin: 20px;
+    height: 200px;
+    
+}
+
+
+.boxx {
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid rgb(174, 171, 171);
+    background-color: rgb(233, 235, 237);
+}
+
+.cool {
+    color: rgb(136, 133, 133);
+    margin: 5px;
+}
+
+.print {
+    display: block;
+    height: 60px;
+    flex: 100%;
+    margin: 20px 0px;
+    
+}
+
+.boxone {
+    height: 35px;
+    width: 148px;
+    margin: 5px;
+    border: 1px solid rgb(180, 172, 172);
+    background-color: rgb(234, 236, 238);
+}
+
+.play1 {
+    color: rgb(137, 139, 140);
+    margin: 5px;
+}
+
+.card {
+    display: flex;
+    flex: 100%;
+    margin: 5px;
+    height: 50px;
+}
+
+.select {
+    height: 35px;
+    width: 250px;
+    margin: 5px;
+    background-color: rgb(234, 238, 241);
+}
+
+.instruction {
+    height: 35px;
+    width: 300px;
+    margin: 5px 20px;
+    border: 1px solid rgb(178, 176, 176);
+    background-color: rgb(223, 225, 227);
+}
+
+.instruction a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.forone {
+    color: rgb(154, 155, 156);
+    margin: 10px;
+}

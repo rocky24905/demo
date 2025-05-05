@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: o;
+    padding: 0;
+}
+
+
+.Guar {
+    text-align: center;
+    justify-content: center;
+    background-color: coral;
+}
+
+
+.Guardian {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.Guardian a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    place-items: center;
+    justify-content: center;
+    height: 60px ;
+    width: 220px;
+}
+
+.ginput { 
+    margin: 10px 0px;
+    display: block;
+    width: 230px;
+    height: 50px;
+    box-shadow: 1px 1px 10px lightskyblue;
+    border-radius: 0px 170px 170px 9px;
+}
+
+.Guardian a:hover {
+          color: aqua;
+          transform: skew(-25deg, -0deg);
+}
+
+.lift {
+    display: flex;
+    float: left;
+    text-align: center;
+    justify-content: center;
+}
