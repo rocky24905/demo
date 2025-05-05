@@ -7,7 +7,7 @@ import './Guardians.css';
 const Guardians = ()=>{
     return(
         <div className="scroll">
-            <div className="connnnnnn">
+            <div className="con">
             <div className="left1"><i class="fa-solid fa-house-chimney"></i><a href="#">Home</a>/ Guardian</div>
               
                 <from className="rightee">
