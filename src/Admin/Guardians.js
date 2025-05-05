@@ -1,10 +1,13 @@
 import React from "react";
 import './Guardians.css';
 
+
+
+
 const Guardians = ()=>{
     return(
         <div className="scroll">
-            <div className="con">
+            <div className="connnnnnn">
             <div className="left1"><i class="fa-solid fa-house-chimney"></i><a href="#">Home</a>/ Guardian</div>
               
                 <from className="rightee">
