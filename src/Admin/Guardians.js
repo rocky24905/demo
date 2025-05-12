@@ -249,14 +249,17 @@ const Guardians = ()=>{
                      <div className="Guardiannext44">1</div>
                      <div className="Guardiannext1011">Next</div>
                    </div>
+
+                   
                  </div>
                  <div className="node">
                     <div className="nodeone">© 2025</div>
                  </div>
-             </div>
-             
+             </div>       
 
-             
+
+
+
         </div>
     )
 }

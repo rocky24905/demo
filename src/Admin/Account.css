@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.singone {
+    box-shadow: 1px 1px 15px lightslategray;
+    background-image: linear-gradient(to right top, #3977d5, #5887d8, #7197da, #8aa8dc, #a2b8de, #a0b6df, #9fb5df, #9db3e0, #849fdf, #6d8bdd, #5876da, #4561d5);
+    display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+    width: 500px;
+    height: 400px;
+    margin: 100px 350px;
+}
+
+.sing00 {
+    text-align: center;
+    justify-content: center;
+}
+
+.holder {
+    width: 300px;
+    height: 35px;
+    background-color: #dce7e8;
+}
+
+.sub {
+    width: 120px;
+    height: 35px;
+    margin: 25px 20px;
+}
+
+.sub1 :hover {
+    background-image: linear-gradient(to right top, #24b8da, #00cbdb, #00dcc4, #00e996, #4df254);
+}
+
+.chone {
+    width: 300px;
+    height: 35px;
+    margin: 5px;
+}
+
+.sub22 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

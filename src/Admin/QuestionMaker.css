@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Question {
+    height: 420px;
+    flex: 100%;
+    margin: 10px;
+    box-shadow: 1px 1px 10px lightslategray;
+    background-image: linear-gradient(to right top, #fdfbf8, #f5f1e7, #eae9d6, #dbe1c7, #c9dabb, #c8d3ac, #c9cb9e, #cbc390, #e4b48a, #f6a597, #f69ab6, #dd9bda);
+}
+
+.Maker {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #ede6d8, #eae4c5, #e1e3b5, #d2e4a7, #bce59d, #abe7a1, #98e8a7, #82e9af, #79eabf, #74eacd, #75e9da, #7ae8e4);
+}
+
+.Questione {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 350px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.makerone {
+    width: 200px;
+    height: 35px;
+    color: #7a7878;
+}
+
+.makertwo {
+    color: rgb(141, 142, 142);
+    margin: 5px;
+}
+
+.makerthree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.makerfour {
+    border: 0px solid black;
+    width: 100px;
+    height: 35px;
+    background-image: linear-gradient(to right top, #abc6ef, #a6c9ef, #a3ccee, #a0cfed, #9ed1eb);
+}

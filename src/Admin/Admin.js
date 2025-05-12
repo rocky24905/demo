@@ -3,6 +3,7 @@ import './Admin.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import {  Routes, Route, Link } from "react-router-dom";
 import Dashbord from "./Dashbord";
+import Account from "./Account";
 import Student from "./Student";
 import Guardians from "./Guardians";
 import Teacher from "./Teacher";
@@ -18,6 +19,7 @@ import Examschedule from "./Examschedule";
 import Examattendance from "./Examattendance";
 import Examseatplan from "./Examseatplan";
 import Gradasetup from "./Gradasetup";
+import QuestionMaker from "./QuestionMaker"
 import Admitcard from "./Admitcard";
 import Academictrenscript from "./Academictrenscript";
 import Academicmeritlist from "./Academicmeritlist";
@@ -69,7 +71,8 @@ const Admin = ()=>{
           <div className="lift">
           
           <div className="menutwo"><b>PAGE</b></div>
-         <div className="menuone"> <li><Link to="/"> <i class="fa-regular fa-square"></i> Dashbord</Link></li></div><hr></hr><br></br>
+         <div className="menuone"> <li><Link to="/"> <i class="fa-regular fa-square"></i> Dashbord</Link></li></div>
+         <div className="menuone"><li><Link to="/Account">Account</Link></li></div><br></br><hr></hr>
          <div className="menutwo"><b>MANAGER</b></div>
         <div className="menuone"> <li><Link to="/Student"> <i class="fa-solid fa-user-graduate"></i> Student</Link></li></div>
         <div className="menuone"><li><Link to="/Guardians"><i class="fa-solid fa-user-group"></i> Guardians</Link></li></div>
@@ -89,6 +92,7 @@ const Admin = ()=>{
         <div className="menuone"> <li><Link to="/Examattendance"><i class="fa-solid fa-chart-bar"></i> Exam Attendance</Link></li></div>
         <div className="menuone"> <li><Link to="/Examseatplan"><i class="fa-solid fa-bars-staggered"></i> Exam Seat Plan</Link></li></div>
         <div className="menuone"> <li><Link to="/Gradasetup"><i class="fa-solid fa-list"></i> Grada Setup</Link></li></div>
+        <div className="menuone"> <li><Link to="/QuestionMaker"><i class="fa-solid fa-list"></i>Question Maker </Link></li></div>
         <div className="menuone"> <li><Link to="/Admitcard"> <i class="fa-regular fa-address-card"></i> Admit Card</Link></li></div>
         <div className="menuone"> <li><Link to="/Academictrenscript"><i class="fa-solid fa-chart-pie"></i> Academic Trenscript</Link></li></div>
         <div className="menuone"> <li><Link to="/Academicmeritlist"><i class="fa-solid fa-industry"></i> Academic Merit List</Link></li></div>
@@ -144,6 +148,7 @@ const Admin = ()=>{
      <Routes>
 
       <Route path="/" element={<Dashbord/>}/>
+      <Route path="/Account" element={<Account/>}/>
       <Route path="/Student" element={<Student/>}/>
       <Route path="/Guardians" element={<Guardians/>}/>
       <Route path="/Teacher" element={<Teacher/>}/>
@@ -159,6 +164,7 @@ const Admin = ()=>{
       <Route path="/Examattendance" element={<Examattendance/>}/>
       <Route path="/Examseatplan" element={<Examseatplan/>}/>
       <Route path="/Gradasetup" element={<Gradasetup/>}/>
+      <Route path="/QuestionMaker" element={<QuestionMaker/>}/>
       <Route path="/Admitcard" element={<Admitcard/>}/>
       <Route path="/Academictrenscript" element={<Academictrenscript/>}/>
       <Route path="/Academicmeritlist" element={<Academicmeritlist/>}/>

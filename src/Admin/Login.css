@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login99 {
+    display: flex;
+    height: 260px;
+    flex: 100%;
+    margin: 50px 470px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.loginbox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.loginboxx {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to right top, #3977d5, #5887d8, #7197da, #8aa8dc, #a2b8de, #a0b6df, #9fb5df, #9db3e0, #849fdf, #6d8bdd, #5876da, #4561d5);
+
+    margin: 30px;
+}
+
+.loginbox111 {
+    width: 250px;
+    height: 35px;
+    background-color: rgb(231, 233, 236);
+    
+}
+
+input {
+    color: blue;
+    border: 0.1px solid blue;
+}
+
+
+input [text]{
+    color: red;
+    background-color: blue;
+    border: 0px solid black;
+}
+.singup {
+    width: 100px;
+    height: 35px;
+}
